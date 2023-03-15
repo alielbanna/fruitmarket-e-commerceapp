@@ -7,7 +7,10 @@ class CompleteInformationView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: CompleteInformationBody(),
+      body: SingleChildScrollView(
+        physics: BouncingScrollPhysics(),
+        child: CompleteInformationBody(),
+      ),
     );
   }
 }
