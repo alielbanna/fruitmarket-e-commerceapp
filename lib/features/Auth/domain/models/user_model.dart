@@ -18,10 +18,10 @@ class UserModel {
 
   toJson() {
     return {
-      kName: this.name,
-      kEmail: this.email,
-      kPhoneNumber: this.phonNumber,
-      kAddress: this.address
+      kName: name,
+      kEmail: email,
+      kPhoneNumber: phonNumber,
+      kAddress: address
     };
   }
 }

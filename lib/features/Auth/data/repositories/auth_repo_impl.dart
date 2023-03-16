@@ -4,7 +4,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
 import 'package:fruitmarket/features/Auth/domain/models/user_model.dart';
 import 'package:fruitmarket/features/Auth/domain/repositories/auth_repo.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
 class AuthRepoImpl extends AuthRepo {
